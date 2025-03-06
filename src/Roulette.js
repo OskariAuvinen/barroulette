@@ -69,7 +69,7 @@ const Roulette = ({ data }) => {
         onClick={handleSpinClick}
         disabled={mustSpin}
       >
-        {!mustSpin ? rouletteData[prizeNumber].completeOption : "Кручу..."}
+        {!mustSpin ? rouletteData[prizeNumber].completeOption : "Pyörii..."}
       </button>
     </>
   );

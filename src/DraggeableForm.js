@@ -121,7 +121,7 @@ const FormularioTexto = () => {
     return (
         <div className="main-form">
             <div className="text-title">
-                <h2>Elysium Рулетка</h2>
+                <h2>Baariruletti</h2>
             </div>
             {/*  */}
             <Roulette data={inputList} />
