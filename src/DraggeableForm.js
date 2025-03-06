@@ -148,7 +148,7 @@ const FormularioTexto = () => {
                                                     <BiGridVertical />
                                                     <input
                                                         name="text"
-                                                        placeholder="Введи что-нибудь(или нет)"
+                                                        placeholder="Syötä kapakan nimi..."
                                                         value={x.text}
                                                         onChange={(e) => handleInputChange(e, index)}
                                                         className="input"
